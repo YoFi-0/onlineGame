@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" type="text/css" href="./style/game.css">
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+    <script defer src="sokoCon.js" ></script>
+    <script defer type="text/javascript" src="./script/io.js"></script>
+</head>
+<body>
+    <div class="chose"></div>
+    <div id="gameContainer">
+        <h1 id="winnerText">Winner</h1>
+        <canvas width="700" height="500"></canvas>
+        <p id="scoreText">0 : 0</p>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <script>
+        console.log('%c.', 'background-image: url("https://i.imgur.com/cBt4dBK.gif");background-repeat: no-repeat;padding: 100px 200px;');
+    </script>
+</body>
+</html>
